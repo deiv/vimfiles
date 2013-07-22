@@ -231,3 +231,13 @@ set gfn=Inconsolata\ Medium\ 11
 " Arduino color sintax
 au BufRead,BufNewFile *.pde set filetype=arduino
 au BufRead,BufNewFile *.ino set filetype=arduino
+
+"" tmuxify
+let g:tmuxify_pane_split = '-h'
+let g:tmuxify_pane_size = '80'
+let g:tmuxify_run = {
+    \ 'sh': 'bash %',
+    \ 'go': 'go build %',
+    \ 'rb': 'ruby %'
+    \}
+

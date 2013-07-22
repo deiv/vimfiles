@@ -13,3 +13,6 @@
 [submodule "bundle/vim-github-theme"]
 	path = bundle/vim-github-theme
 	url = https://github.com/ricardovaleriano/vim-github-theme.git
+[submodule "bundle/tmuxify"]
+	path = bundle/tmuxify
+	url = https://github.com/mhinz/vim-tmuxify.git
