@@ -2,7 +2,8 @@
 
 """ pathogen setup
 filetype off
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
+"""call pathogen#runtime_append_all_bundles()
 
 """ enable filetype plugin
 filetype plugin on
